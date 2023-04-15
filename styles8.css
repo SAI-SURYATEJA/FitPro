@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #1E1E1E;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .logo img {
+    height: 70px;
+    }
+    nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    }
+    nav li {
+    margin-right: 20px;
+    }
+    nav a {
+    color: rgb(255,255,255);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-align: horizontal;
+    }
+    nav a:hover {
+    color: #E0FE10;
+    }
+    input[type="button"]{
+        background-color: #E0FE10;
+        color: #1E1E1E;
+        font-size: 20px;
+        cursor: pointer;
+        border-radius: 5px;
+        border: 1px solid #E0FE10;
+        padding: 2px 20px;
+        font-weight: bold;
+        }
+  input[type="button"]:hover {
+          background-color: #1E1E10;
+          color: #E0FE10;
+          border: 1px solid #E0FE10;
+          }  
+          body{
+            background-color: #1E1E10;
+          }
+          .hero2{
+            background-color: #1E1E10;
+            text-align: center;
+          }
+          .bin{
+            text-align: center;
+            width: 710px;
+            height: 570px;
+            background-color: #1E1E1E;
+            border: 1px solid #E0FE10;
+            box-sizing: border-box;
+            margin-top: 50px;
+            color:#E0FE10;
+            margin-left: 100px;
+            margin-right: 100px;
+            margin-bottom: 50px;
+            display:inline-block;
+           
+        }
+        .bin1{
+            background-color: #1E1E1E;
+
+
+        }
+        h1{
+            font-size: 40px;
+            padding: 10px;
+        }
+        label{
+            text-align: left;
+            padding:30px;
+            display:block;
+            font-size: 25px;
+        }
+        input[type="text"]{
+            border: none;
+            background-color: #1E1E1E;
+            height: 40px;
+            width:300px;
+            font-size: 25px;
+            color:#E0FE10;
+        }
+        input[type="email"]{
+            border: none;
+            background-color: #1E1E1E;
+            height: 40px;
+            width:300px;
+            font-size: 25px;
+            color:#E0FE10;
+        }
+        input[type="password"]{
+            border: none;
+            background-color: #1E1E1E;
+            height: 40px;
+            width:300px;
+            font-size: 25px;
+            color:#E0FE10;
+        }
+        input[type="int"]{
+            border: none;
+            background-color: #1E1E1E;
+            height: 40px;
+            width:300px;
+            font-size: 25px;
+            color:#E0FE10;
+        }
+        input[type="submit"]{
+            background-color: #E0FE10;
+        color: #1E1E1E;
+        font-size: 28px;
+        cursor: pointer;
+        border-radius: 5px;
+        border: 1px solid #E0FE10;
+        padding: 20px 40px;
+        font-weight: bold;
+        }
+        input[type="submit"]:hover{
+            background-color: #1E1E1E;
+            color: #E0FE10;
+            border-color: #E0FE10;
+        }
